@@ -1,0 +1,230 @@
+
+
+.canvas_container_div {
+      /* border: 1px solid #ccc !important; */
+      width: 100%;
+      height: 90%;
+    }
+    canvas{
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .maindiv {
+      /* margin: 10px 20px 0px 10px; */
+    }
+
+    .titlediv {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 35px;
+      font-family: sans-serif;
+      margin-bottom: 20px;
+      /* width:90%; */
+      margin: -20px auto 15px auto;
+    }
+
+    .active,
+    .btn:hover {
+      background-color: #666;
+      color: white;
+    }
+
+    .icons_div {
+      margin: 15px auto;
+      text-align: center;
+      /* position: absolute;
+      left: 15%; */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    #add-text {
+      width: 60px;
+      height: 60px;
+      /* background-image: url(../images/pencil.png); */
+      /* background-repeat: no-repeat;
+    background-size: cover; */
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 0px 5px;
+
+      /* background-origin: content-box; */
+      margin: 15px;
+      /* float: left; */
+      font-size: 30px;
+    }
+
+    #drawing-mode {
+      width: 60px;
+      height: 60px;
+      background-image: url(../images/pencil.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      /* padding: 29px; */
+      padding: 5px;
+      background-origin: content-box;
+      margin: 15px;
+      /* float: left; */
+    }
+
+    #eraser {
+      width: 60px;
+      height: 60px;
+      background-image: url(../images/eraser.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      /* padding: 29px; */
+      padding: 5px;
+      background-origin: content-box;
+      margin: 15px;
+      /* float: left; */
+    }
+
+    #clear-canvas {
+      width: 60px;
+      height: 60px;
+      background-image: url(../images/trashbin.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      /* padding: 29px; */
+      padding: 5px;
+      background-origin: content-box;
+      margin: 15px;
+      /* float: left; */
+    }
+
+    .modal-body {
+      height: 300px;
+      font-size: 20px;
+      line-height: 40px;
+      padding: 40px !important;
+    }
+    #drawingModal .modal-body{
+      height: 350px !important;
+    }
+    #drawing-line-width,#eraser-line-width{
+      margin-top: 25px;
+    }
+    #eraser-line-width{
+      margin-top: 50px
+    }
+
+    #drawingModal .button ,#eraserModal .button {
+      background: #46104C;
+      border: 1px solid #46104C;
+      border-radius: 8px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      width: 200px;
+      height: 60px;
+    }
+
+    .center_align {
+      text-align: center;
+      margin-top: 20px;
+      position: absolute;
+      margin-left: -50px;
+      left: 45%;
+      /* width: 100px; */
+      bottom: 35px;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    .jscolor-btn {
+      width: 100px !important;
+      font-size: 26px !important;
+      font-weight: bold !important;
+      left: 33% !important;
+      background: #46104C !important;
+      border-radius: 8px !important;
+      font-family: Arial;
+      color: #ffffff !important;
+      text-decoration: none;
+      /* background-image: -webkit-linear-gradient(top, #46104C, #7b2085) !important; */
+
+    }
+
+    .labelfont label {
+      font-size: 32px;
+    }
+
+    .info {
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    #drawing-color {
+      width: 80%;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .deletepopupconfim {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .deletemessage {
+      font-weight: normal;
+      margin-top: 14px;
+      line-height: 40px;
+      font-size: 28px;
+    }
+
+    .cancel_button {
+      border: 1px solid #46104C;
+      margin-right: 25px;
+      background: #fff;
+      color: #46104C;
+      width: 280px;
+      height: 75px;
+      border-radius: 8px;
+      font-family: Arial;
+      font-size: 26px;
+      font-weight: bold;
+      text-decoration: none;
+      /* float: left; */
+      text-transform: uppercase;
+    }
+
+    .ok_button {
+      background: #46104C;
+      border: 1px solid #46104C;
+      border-radius: 8px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 30px;
+      /* font-weight: bold; */
+      text-decoration: none;
+      width: 280px;
+      height: 75px;
+      /* float: right; */
+      text-transform: uppercase;
+    }
+
+    .delete_buttons {
+      /* text-align: center; */
+      margin-top: 20px;
+    }
+  
+    @media (min-width: 576px) {
+      .modal-dialog {
+        width: 98% !important;
+        max-width: 800px !important;
+        margin: 0px auto !important;
+      }
+    }
